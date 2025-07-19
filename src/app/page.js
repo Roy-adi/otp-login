@@ -1,7 +1,7 @@
 'use client'; // Required only in `app/` folder
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation'; // ✅ use from next/navigation
+import { useRouter } from 'next/navigation'; 
 import { getSellerProfile } from '@/utils/api';
 
 export default function HomePage() {
